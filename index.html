@@ -16,17 +16,19 @@
     <header class="site-header">
       <div class="header-inner">
         <div class="header-main">
-          <a href="#" class="header-logo">Header Logo</a>
+          <div class="header-logo">
+            <a href="#" class="logo-text">Odin's Project</a>
+          </div>
           <nav class="nav-desktop">
             <ul class="nav-list">
               <li class="nav-item">
-                <a href="#" class="nav-link">Header Link One</a>
+                <a href="#" class="nav-link">Features</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Header Link Two</a>
+                <a href="#" class="nav-link">Testimonials</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Header Link Three</a>
+                <a href="#" class="nav-link">Contact Us</a>
               </li>
             </ul>
           </nav>
@@ -45,8 +47,353 @@
           </button>
         </div>
       </div>
-      <div class="nav-mobile" id="nav-mobile"></div>
+      <div class="nav-mobile" id="navMobile">
+        <nav class="nav-mobile-inner">
+          <ul>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+    <section class="hero">
+      <!-- Background gradient -->
+      <div class="hero-bg"></div>
+
+      <!-- Decorative elements -->
+      <div class="hero-deco hero-deco-top-right"></div>
+      <div class="hero-deco hero-deco-bottom-left"></div>
+
+      <div class="hero-container">
+        <div class="hero-flex">
+          <!-- Left content -->
+          <div class="hero-content fade-in-left">
+            <h1 class="hero-title">
+              This website is
+              <span class="hero-title-gradient">awesome</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Experience the next generation of web design with our modern,
+              intuitive platform. Built for creators, designed for everyone.
+            </p>
+
+            <div class="hero-buttons">
+              <button class="btn-primary">
+                Get Started
+                <span class="btn-icon">
+                  <!-- Simple right arrow icon -->
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M5 12h14M13 5l7 7-7 7"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <button class="btn-secondary">Learn More</button>
+            </div>
+          </div>
+
+          <!-- Right image -->
+          <div class="hero-image-wrapper fade-in-right">
+            <div class="hero-image">
+              <img
+                src="https://images.unsplash.com/photo-1717323454555-f053c31ff4b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB0ZWNoJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc2ODMyNTM0MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                alt="Modern tech interface"
+              />
+              <div class="hero-image-overlay"></div>
+            </div>
+
+            <!-- Floating card -->
+            <div class="hero-floating-card fade-in-up">
+              <div class="hero-floating-content">
+                <div class="hero-floating-icon">✓</div>
+                <div>
+                  <p class="hero-floating-title">Verified Quality</p>
+                  <p class="hero-floating-text">Trusted by 10k+ users</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /hero-grid -->
+      </div>
+      <!-- /hero-container -->
+    </section>
+
+    <section id="features" class="features-section">
+      <div class="features-deco features-deco-top"></div>
+      <div class="features-deco features-deco-bottom"></div>
+      <div class="features-container">
+        <div class="features-intro fade-up-on-scroll">
+          <h2 class="features-title">Everything you need to succeed</h2>
+          <p class="features-subtitle">
+            Powerful features designed to help you build, grow, and scale your
+            business
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Feature 1 -->
+          <article class="feature-card fade-up-on-scroll">
+            <div class="feature-image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1519217651866-847339e674d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NjgzMzYxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                alt="Intuitive Design"
+                class="feature-image"
+              />
+              <div class="feature-gradient feature-gradient-blue"></div>
+
+              <div class="feature-icon-wrapper">
+                <div class="feature-icon-bg">
+                  <!-- Sparkles-like icon -->
+                  <svg
+                    viewBox="0 0 24 24"
+                    class="feature-icon feature-icon-blue"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M12 3l1.5 4.5L18 9l-4.5 1.5L12 15l-1.5-4.5L6 9l4.5-1.5L12 3z"
+                    />
+                    <path
+                      d="M5 17l.75 2.25L8 20l-2.25.75L5 23l-.75-2.25L2 20l2.25-.75L5 17z"
+                    />
+                    <path
+                      d="M18 15l.9 2.1L21 18l-2.1.9L18 21l-.9-2.1L15 18l2.1-.9L18 15z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-content">
+              <h3 class="feature-title">Intuitive Design</h3>
+              <p class="feature-text">
+                Beautiful interfaces that users love to interact with
+              </p>
+            </div>
+          </article>
+
+          <!-- Feature 2 -->
+          <article class="feature-card fade-up-on-scroll">
+            <div class="feature-image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwaW5ub3ZhdGlvbnxlbnwxfHx8fDE3NjgzMDk2NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                alt="Lightning Fast"
+                class="feature-image"
+              />
+              <div class="feature-gradient feature-gradient-purple"></div>
+
+              <div class="feature-icon-wrapper">
+                <div class="feature-icon-bg">
+                  <!-- Zap icon -->
+                  <svg
+                    viewBox="0 0 24 24"
+                    class="feature-icon feature-icon-purple"
+                    aria-hidden="true"
+                  >
+                    <polygon
+                      points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"
+                    ></polygon>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-content">
+              <h3 class="feature-title">Lightning Fast</h3>
+              <p class="feature-text">
+                Optimized performance for seamless experiences
+              </p>
+            </div>
+          </article>
+
+          <!-- Feature 3 -->
+          <article class="feature-card fade-up-on-scroll">
+            <div class="feature-image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwdGVhbXxlbnwxfHx8fDE3NjgzMTg4MTd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                alt="Secure & Private"
+                class="feature-image"
+              />
+              <div class="feature-gradient feature-gradient-green"></div>
+
+              <div class="feature-icon-wrapper">
+                <div class="feature-icon-bg">
+                  <!-- Shield-like icon -->
+                  <svg
+                    viewBox="0 0 24 24"
+                    class="feature-icon feature-icon-green"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-content">
+              <h3 class="feature-title">Secure & Private</h3>
+              <p class="feature-text">
+                Your data is protected with enterprise-grade security
+              </p>
+            </div>
+          </article>
+
+          <!-- Feature 4 -->
+          <article class="feature-card fade-up-on-scroll">
+            <div class="feature-image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1717323454555-f053c31ff4b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB0ZWNoJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc2ODMyNTM0MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                alt="Scale with Ease"
+                class="feature-image"
+              />
+              <div class="feature-gradient feature-gradient-orange"></div>
+
+              <div class="feature-icon-wrapper">
+                <div class="feature-icon-bg">
+                  <!-- Trending up icon -->
+                  <svg
+                    viewBox="0 0 24 24"
+                    class="feature-icon feature-icon-orange"
+                    aria-hidden="true"
+                  >
+                    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                    <polyline points="17 6 23 6 23 12"></polyline>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-content">
+              <h3 class="feature-title">Scale with Ease</h3>
+              <p class="feature-text">Grow your business without limitations</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonial-dark-section">
+      <div class="testimonial-dark-container">
+        <div class="testimonial-dark-wrapper fade-up-on-scroll">
+          <!-- Quote icon -->
+          <div class="testimonial-dark-quote-row">
+            <div class="testimonial-dark-quote-bg">
+              <svg
+                viewBox="0 0 24 24"
+                class="testimonial-dark-quote-icon"
+                aria-hidden="true"
+              >
+                <path d="M7 17h2l1-4V7H6v6h2l-1 4z" />
+                <path d="M15 17h2l1-4V7h-4v6h2l-1 4z" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div class="testimonial-dark-card">
+            <!-- inner blobs -->
+            <div class="testimonial-dark-card-blob top-right"></div>
+            <div class="testimonial-dark-card-blob bottom-left"></div>
+
+            <blockquote class="testimonial-dark-blockquote">
+              <!-- Stars -->
+              <div class="testimonial-dark-stars">
+                <!-- 5 stars -->
+                <svg class="star" viewBox="0 0 20 20" aria-hidden="true">
+                  <path
+                    d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+                  />
+                </svg>
+                <svg class="star" viewBox="0 0 20 20" aria-hidden="true">
+                  <path
+                    d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+                  />
+                </svg>
+                <svg class="star" viewBox="0 0 20 20" aria-hidden="true">
+                  <path
+                    d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+                  />
+                </svg>
+                <svg class="star" viewBox="0 0 20 20" aria-hidden="true">
+                  <path
+                    d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+                  />
+                </svg>
+                <svg class="star" viewBox="0 0 20 20" aria-hidden="true">
+                  <path
+                    d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+                  />
+                </svg>
+              </div>
+
+              <!-- Text -->
+              <p class="testimonial-dark-text">
+                "This platform has completely transformed how we work. The
+                intuitive design and powerful features have helped us increase
+                productivity by 300%. It's not just a tool—it's a game changer
+                for our entire team."
+              </p>
+
+              <!-- Author -->
+              <footer class="testimonial-dark-footer">
+                <div class="testimonial-dark-avatar-wrapper">
+                  <div class="testimonial-dark-avatar">
+                    <span>SJ</span>
+                  </div>
+                  <div class="testimonial-dark-badge">
+                    <svg
+                      class="badge-check"
+                      viewBox="0 0 20 20"
+                      aria-hidden="true"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div>
+                  <div class="testimonial-dark-name">Sarah Johnson</div>
+                  <div class="testimonial-dark-role">CEO, Innovation Labs</div>
+                </div>
+              </footer>
+
+              <!-- Stats -->
+              <div class="testimonial-dark-stats">
+                <div>
+                  <div class="stat-value stat-blue">300%</div>
+                  <div class="stat-label">Productivity Boost</div>
+                </div>
+                <div>
+                  <div class="stat-value stat-purple">10k+</div>
+                  <div class="stat-label">Active Users</div>
+                </div>
+                <div>
+                  <div class="stat-value stat-pink">4.9/5</div>
+                  <div class="stat-label">User Rating</div>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+
+          <!-- outer pink blob under card -->
+          <div class="testimonial-dark-outer-blob"></div>
+        </div>
+      </div>
+    </section>
+
     <script src="script.js"></script>
   </body>
 </html>
