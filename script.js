@@ -39,3 +39,20 @@ const testimonialObserver = new IntersectionObserver(
 );
 
 testimonialItems.forEach((item) => testimonialObserver.observe(item));
+
+// Scroll-in for wrapper (like Framer Motion whileInView)
+const ctaItems = document.querySelectorAll(".fade-up-on-scroll");
+
+const ctaObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("fade-up-visible");
+        ctaObserver.unobserve(entry.target);
+      }
+    });
+  },
+  { threshold: 0.2 }
+);
+
+ctaItems.forEach((item) => ctaObserver.observe(item));
