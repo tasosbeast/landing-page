@@ -13,3 +13,13 @@ a {
 button {
   background: none;
 }
+/* Header */
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  backdrop-filter: blur(15px);
+}
