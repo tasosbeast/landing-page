@@ -6,5 +6,42 @@
     <title>Landing Page | Odin Project</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="header-main">
+          <div class="header-logo">
+            <a href="#" class="logo-text">Header Logo</a>
+          </div>
+          <nav class="nav-desktop">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Header Link One</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Header Link Two</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Header Link Three</a>
+              </li>
+            </ul>
+          </nav>
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+            id="navToggle"
+          >
+            <svg viewBox="0 0 24 24" class="nav-toggle-icon" aria-hidden="true">
+              <line x1="4" y1="6" x2="20" y2="6"></line>
+              <line x1="4" y1="12" x2="20" y2="12"></line>
+              <line x1="4" y1="18" x2="20" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="nav-mobile" id="nav-mobile"></div>
+    </header>
+  </body>
 </html>
