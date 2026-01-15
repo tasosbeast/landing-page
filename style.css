@@ -1,13 +1,11 @@
 /* Variables */
 :root {
   --font-family: "Roboto", sans-serif;
-  --color-primary: #1f2937;
-  --color-secondary: #f9faf8;
-  --color-tertiary: #e5e7eb;
-  --color-quaternary: #3882f6;
-  --color-quinary: #1f2937;
-  --color-senary: #f9faf8;
-  --color-septenary: #e5e7eb;
+  --color-dark-background: #1f2937;
+  --color-hero: #f9faf8;
+  --color-hero-secondary: #e5e7eb;
+  --color-btn: #3882f6;
+  --color-header-info: #1f2937;
 }
 
 /* Reset */
