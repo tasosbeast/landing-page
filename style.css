@@ -53,3 +53,22 @@ button {
   z-index: 50;
   backdrop-filter: blur(15px);
 }
+
+.header-inner {
+  max-width: 120rem;
+  margin: 0 auto;
+  /* padding: 0 1.6rem; */
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.4rem;
+}
+
+@media (min-width: 768px) {
+  .nav-toggle {
+    display: none;
+  }
+}
