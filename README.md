@@ -2,6 +2,10 @@
 
 A modern, responsive landing page built as a layout practice exercise using HTML, CSS, and vanilla JavaScript. Features a clean design with smooth animations, gradient effects, and mobile navigation.
 
+## Live Demo
+
+🔗 **[View Live Site](https://tasosbeast.github.io/landing-page/)**
+
 ## Tech Stack
 
 - **HTML5** — Semantic markup structure
